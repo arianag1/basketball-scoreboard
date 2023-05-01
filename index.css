@@ -1,0 +1,80 @@
+@font-face {
+    font-family: CursedTimerUlil;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team-points-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.team-points-description{
+    color: #EEE;
+}
+
+.points-box{
+    width: 75px;
+    height: 60px;
+    background-color: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.points {
+    color: red;
+    font-family: CursedTimerUlil, sans-serif;
+    font-size: 40px;
+}
+
+.won-points-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: CursedTimerUlil, sans-serif;
+    /* background: red; */
+}
+
+.points-won{
+    display: flex;
+    height: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9AABD8;
+    font-size: 12px;
+    color: #9AABD8;
+    background: none;
+    border-radius: 3px;
+}
+
+#new-game-container {
+    display: flex;
+    justify-content: center;
+}
+
+#new-game {
+    width: max-content;
+    margin-top: 15px;
+    background:  #080001;
+    color: #eee;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
